@@ -1,0 +1,12 @@
+---
+title: "STA2453H1Y - Data Science Methods, Collaboration, and Communication"
+output: 
+  html_document: 
+    theme: cosmo
+    highlight: tango
+---
+
+Welcome to the 2022/23 course website for STA2453 - Data Science Methods, Collaboration, and Communication, [Department of Statistical Sciences, University of Toronto](http://utstat.toronto.edu).
+
+This course can only be taken by graduate students in the Department of Statistical Sciences, and the MScAC Data Science concentration. 
+

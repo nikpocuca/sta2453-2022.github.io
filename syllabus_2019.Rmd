@@ -1,0 +1,79 @@
+---
+title: "STA2453H1Y - Data Science Methods, Collaboration, and Communication"
+subtitle: "Syllabus"
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    toc: true
+    toc_float: true
+---
+
+
+# Instructor
+
+[Nikola Počuča](https://ca.linkedin.com/in/nik-po%C4%8Du%C4%8Da-1b46a2173)
+
+# Course Description
+
+Students will gain experience with the data science process including: 
+
+- Data collection
+- Data wrangling
+- Program ([Python](https://www.python.org)/[R](https://cran.r-project.org))
+- Data exploration
+- Data vizualization
+- Modelling
+- Communication
+- Reproducibility
+
+Students will learn about these topics by working on case studies based on problems that data scientists face in industry and academic research. Many of the cases will involve data collected by an organization (e.g., organization or scientist), using published data, or scraping web pages.  All projects will involve some type of collaboration or communication. Students are expected to be familiar with the application of basic statistical methods used for inference (e.g., general linear models), prediction (e.g., linear and logistic regression), and are comfortable with basic data analysis using a programming language such as R or Python.  Students will be expected to adopt a reproducible research workflow using tools such as [Github](https://github.com), and [RMarkdown](https://rmarkdown.rstudio.com), or [Jupyter](https://jupyter.org). 
+
+Class time will be a mixture of informal lectures, class discussions, and student presentations.
+
+# Evaluation
+
+All work will be graded on a scale from 1 to 4 (sometimes with pluses and minuses) where:
+
+
+------------------------------------------------------------------------
+Grade value   Description
+-----------   ---------------------------------------------------------
+1             Work does not meet expectations.
+
+2             Work meets expectations minimally, possibly missing some.
+
+3             Good work; meets all or most expectations.
+
+4             Excellent work; exceeds expectations.
+------------------------------------------------------------------------
+
+
+Grades will almost always be 2 or 3 (1’s and 4’s are rare). Generally speaking, a 2 is a B, a 3 is an A, and a 4 is an A+.
+
+
+# Course Schedule
+
+This is a half-credit that meets in both the fall and winter terms.  Class meeting will occur approximately bi-weekly.
+
+
+| Date  | Description |
+| ----------- | ----------- |
+| September 8th | Course officially begins. |
+| September 13th   | First class, Introductions, Python/R setups, Data Analysis |
+| September 27th | In Class Lab 1, Multiple Linear Regression | 
+| October 11th | Generalized Linear Models | 
+
+
+
+
+## Required Readings
+
+- [ISLR](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+
+- [Python for Data Analysis 2nd/3rd Edition](https://wesmckinney.com/book/)
+
+Other readings may be assigned during the course.
+
+
+

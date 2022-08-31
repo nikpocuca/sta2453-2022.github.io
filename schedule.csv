@@ -1,0 +1,32 @@
+Class,Date,Description,Reading,Due
+1,10-Sep,"Introduction to course, hypothesis testing in data analysis","ISLR: Chapt. 2, 3.1. CASI: Chapt 1, 2",
+,17-Sep,No class,,
+2,24-Sep,Multiple linear regression,ISLR: 3.2-3.6. ,In-class lab #1
+,01-Oct,No class,,In-class lab #2
+3,08-Oct,Logistic regression and other linear models (GLM),ISLR: Chapt 4; CASI: Chapt 8,
+,15-Oct,No class,,In-class lab #3
+4,22-Oct,No class,,
+,29-Oct,Introduction of Project #1 ,TBD,
+,05-Nov,Fall Reading Week - No class,,
+5,12-Nov,Data visualization,,
+,19-Nov,No class,,
+6,26-Nov,Office hours,,
+,03-Dec,Student presentations for project #1,,Project #1 presentations
+,10-Dec,Winter Break,,
+,17-Dec,Winter Break,,
+,24-Dec,Winter Break,,
+,31-Dec,Winter Break,,
+,07-Jan,No class,,
+7,14-Jan,Introduction to Diabetes Complications Project #2 ,Description will be posted after class,
+,21-Jan,Introduction to RCT Fraud Project #2 ,Read descriptions posted on Quercus,
+8,28-Jan,No class,,
+,04-Feb,Office hours,,
+9,11-Feb,Student presentations for project #2,,Project #2 presentations
+,18-Feb,Reading Week,,
+10,25-Feb,Introduction of Project #3,TBD,
+,03-Mar,No class,,
+11,10-Mar,"Guest lecture: Dr. Inmar Givoni, Uber ATG. Deep Learning for self driving",,
+,17-Mar,No class,,
+12,24-Mar,Student presentations for project #3,,Project #3 presentations
+,31-Mar,No class,,
+,07-Apr,No class,,

@@ -1,0 +1,24 @@
+name: "STA2453 - Data Science Methods, Collaboration, and Communication "
+#exclude: ["casestudy1.Rmd", "*.ipynb", "sta2453*.Rmd"]
+navbar:
+  title: "STA2453"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Syllabus and Schedule"
+      href: syllabus_2019.html
+#    - text: "Course documents"
+#      href: sta2453_2019coursedocs.html
+#    - text: Projects
+#      menu:
+#        - text: Project 1
+#          href: sta2453_2019_project1.html
+#        - text: Project 2
+#          href: sta2453_2019_project2.html
+#        - text: Project 3
+#          href: sta2453_2019_project3.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: tango
+output_dir: "."
