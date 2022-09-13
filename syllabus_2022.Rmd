@@ -93,7 +93,7 @@ Other readings may be assigned during the course.
 
 
 ## Slides and Materials 
-- Week 1: [Slides](https://docs.google.com/presentation/d/15RgjoU7fKz_AFcCyW8qXxrRwj04FeZji-K0mWla_gBQ/edit?usp=sharing) and [Code](https://docs.google.com/spreadsheets/d/1CeBguQZdJLBDim8v0DqBIDrsKvVN83TVGGrKVy18Vr8/edit?usp=sharing)
+- Week 1: [Slides](https://docs.google.com/presentation/d/15RgjoU7fKz_AFcCyW8qXxrRwj04FeZji-K0mWla_gBQ/edit?usp=sharing) and [Code](https://colab.research.google.com/drive/1L1Kx8qoHCY3yjuYg2tE4W61xu79xG7lJ?usp=sharing)
 
 
 
