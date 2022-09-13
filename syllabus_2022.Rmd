@@ -51,6 +51,15 @@ Grade value   Description
 
 Grades will almost always be 2 or 3 (1’s and 4’s are rare). Generally speaking, a 2 is a B, a 3 is an A, and a 4 is an A+.
 
+# Breakdown 
+
+Lab 1: 10%
+Lab 2: 10% 
+Lab 3: 10%
+Project 1: 20%
+Project 2: 20%
+Project 3: 20%
+Participation 10%
 
 # Course Schedule
 
@@ -81,6 +90,12 @@ UY 17198.
 - [Python for Data Analysis 2nd/3rd Edition](https://wesmckinney.com/book/)
 
 Other readings may be assigned during the course.
+
+
+## Slides and Materials 
+- Week 1: [Slides](https://docs.google.com/presentation/d/15RgjoU7fKz_AFcCyW8qXxrRwj04FeZji-K0mWla_gBQ/edit?usp=sharing) and [Code](https://docs.google.com/spreadsheets/d/1CeBguQZdJLBDim8v0DqBIDrsKvVN83TVGGrKVy18Vr8/edit?usp=sharing)
+
+
 
 
 
