@@ -76,7 +76,7 @@ UY 17198.
 | October 25th | Mixture Models and Data Heterogeneity | 
 | November 8th | Reading Week | 
 | November 22nd | In Class Lab 2, Data Quality, Ethics, and Missing/Asymmetric Data Imputation |
-| December 3rd | In Class Lab 3, Nonparametrics, and a discussion of Hayashian Data Science |
+| December 6th | In Class Lab 3, Nonparametrics, and a discussion of Hayashian Data Science |
 | Winter Break | |
 
 
