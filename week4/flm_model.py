@@ -164,6 +164,52 @@ class FiniteLinearModel(nn.Module):
         plt.savefig("flm-fit.png") 
         plt.clf() 
 
+    def plot_colors(self, col, labs):
+        """
+            col: reference column. 
+            labs: integer np.array 
+        """
+        
+        color_plt = sns.color_palette("bright", int(np.max(labs)) + 1)
+        
+        plot_df = torch.concat((self.y.unsqueeze(-1), self.X), dim=1)
+        plot_df = pd.DataFrame(plot_df.detach().numpy())
+        plot_df = plot_df[[0,col]]
+        plot_df['color'] = pd.Series(labs).apply(lambda x: color_plt[x])
+
+        sns.scatterplot(x=plot_df[col], y=plot_df[0], color=plot_df['color'],s=2.0)         
+
+        plt.savefig("flm-fit-color.png") 
+        plt.clf() 
+
+    def Estep(self, X, y):
+        """
+            Computes the expectation step using parameters for X ,y
+        """
+        
+        with torch.no_grad():
+            dens = self.log_density(X, y).exp()
+
+            W = self.compute_weights() 
+            dens = dens * W
+            
+            d_sum = dens.sum(-1).unsqueeze(-1)
+            dens = dens / d_sum 
+
+            #dens[:,-1] = 1.0 - dens[:,:-1].sum(-1)
+        
+        return dens 
+
+    def MAP(self, X, y):
+        """
+            Computes labels using the maximum a posterori 
+        """
+        
+        dens = self.Estep(X,y)
+        labs = dens.argmax(-1) 
+        labs = labs.detach().numpy()
+        labs = labs.astype(int)
+        return labs 
 
 
 
