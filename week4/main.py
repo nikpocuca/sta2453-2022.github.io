@@ -22,7 +22,7 @@ if __name__ == "__main__":
     print("Running")
 
     # define data. 
-    G = 2 
+    G = 3 
     #data_s = torch.rand(100,3)
     data_df = load_french_motor()
     data_s = data_df[['y_log','dens']].to_numpy()
@@ -37,7 +37,7 @@ if __name__ == "__main__":
     test_obj = flm.objective_fn(flm.X,flm.y)
 
     # run a training 
-    flm.train(lr=1e-2, max_iterations=1000)
+    flm.train(lr=1e-3, max_iterations=1000)
     
     flm.plot(1) 
 

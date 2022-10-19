@@ -106,7 +106,7 @@ class FiniteLinearModel(nn.Module):
                                       self.sigmas], lr=lr)
         # track loss 
         loss = np.zeros(max_iterations)
-        tq_obj = tqdm(range(max_iterations), desc="SU Model Training")
+        tq_obj = tqdm(range(max_iterations), desc="Model Training")
        
         for it in tq_obj:
             optimizer.zero_grad() 
