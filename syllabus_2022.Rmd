@@ -104,19 +104,19 @@ The lab will consist of the following topics, please brush up on them since this
 
 ---
 
-### Part 1 Data Cleaning 
+#### Part 1 Data Cleaning 
 
 Textbook study guide: Python for Data Analysis Chapters 4, 6, and 7. This part of the lab will require you to load a dataset from a link, 
 clean the data in a certain way using some constraints, and generate two distinct pandas dataframes. 
 
 ---
 
-### Part 2 Numpy Calculation
+#### Part 2 Numpy Calculation
 
 Textbook study guide: Python for Data Analysis Chapters 4. This part of the lab will require you to take 2 columns from 2 different datasets and 
 calculate a metric using both columns. Essentially this question is somewhat of a map-reduce problem. Revise your broadcasting, working with `np.array`, for-loops, and generally numpy skills. 
 
-### Part 3 Distributional Characteristic Statistics
+#### Part 3 Distributional Characteristic Statistics
 
 This part can be tackled 1 of 2 ways for full marks. You will be marked qualitatively, so the more analysis/justification you write the better off you will be. 
 The last end conclusion will separate you from a 3 to a 4. There is a way to do this question without simulations. 
@@ -125,6 +125,63 @@ The last end conclusion will separate you from a 3 to a 4. There is a way to do 
 - Absolutely essential reading: 13.5.1 A Re-Sampling Approach to the p-Value [ISLR](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf), Algorithm 13.3, we covered only half of this algorithm in class, with the remaining part would be to just compare your p-value to the distributions of re-sampled p-values, or calculate equation (13.12).
 
 Useful functions for this question, `np.random.choice`. Try coding this algorithm up yourself! with different types of distributions, Gaussian, Generalized Hyperbolic, or Lognormal distributions. You can send me emails with code examples. 
+
+
+
+
+---
+
+### Lab 2 Study Guide 
+
+---
+
+The lab will consist of the following topics, please brush up on them since this is a timed evaluation, and you will only have an hour. 
+
+---
+
+#### Part 1 Regression
+
+Textbook study guide: Python for Data Analysis Chapters 4, 6, and 7. This part of the lab will require you to load a dataset from a link, 
+clean the data, and generate three different dataframes. 
+
+Once data has been cleaned you will fit three different linear regression models. You can use any code examples from previous lectures, but the best approach is to use the `LinearRegression` 
+module from `sklearn.linear_model`.
+
+You should also brush up on your plotting, specifically using `seaborn` and `matplotlib.pyplot`. 
+
+Be sure to study the assumptions of a linear regression model
+
+
+---
+
+#### Part 2 Logistic and Weighted Linear Regression
+
+---
+
+This part of the lab will require you to use the `LogisticRegression` module also from `sklearn.linear_model`. You will fit a logistic regression model and then the output probabilities as weights for to fit a weighted regression model. This will be similar to the example we did in class. 
+
+Again you will be required to do some plotting. 
+
+---
+
+#### Part 3 Finite Mixture Modelling 
+
+---
+
+You will fit an appropriate finite mixture model similar to the example covered in class. You should work with the `flm_model.py` file I have programmed for you and code up the EM algorithm as a method for that class.
+
+You will be asked to plot the dataset colored by the assigned labels of the fitted mixture model. 
+
+To achieve a level 4 you must have extended the `flm_model.py` in an appropriate way to capture the variability of the covariate distribution, as well as the conditional distribution. Perform some research online for several possible extensions.  
+
+---
+
+Final note: 
+
+Please work with the french motor policy dataset covered in class as the evaluation's dataset is quite similar.  
+
+---
+
 
 
 
