@@ -13,7 +13,7 @@
 
 <title>STA2453H1Y - Data Science Methods, Collaboration, and Communication</title>
 
-<script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -181,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -190,9 +190,16 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
+  content: "&#xe258;";
   border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -336,8 +343,7 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">STA2453H1Y - Data Science Methods,
-Collaboration, and Communication</h1>
+<h1 class="title toc-ignore">STA2453H1Y - Data Science Methods, Collaboration, and Communication</h1>
 <h3 class="subtitle">Syllabus</h3>
 
 </div>
@@ -345,46 +351,27 @@ Collaboration, and Communication</h1>
 
 <div id="instructor" class="section level1">
 <h1>Instructor</h1>
-<p><a
-href="https://ca.linkedin.com/in/nik-po%C4%8Du%C4%8Da-1b46a2173">Nikola
-Počuča</a></p>
+<p><a href="https://ca.linkedin.com/in/nik-po%C4%8Du%C4%8Da-1b46a2173">Nikola Počuča</a></p>
 </div>
 <div id="course-description" class="section level1">
 <h1>Course Description</h1>
-<p>Students will gain experience with the data science process
-including:</p>
+<p>Students will gain experience with the data science process including:</p>
 <ul>
 <li>Data collection</li>
 <li>Data wrangling</li>
-<li>Program (<a href="https://www.python.org">Python</a>/<a
-href="https://cran.r-project.org">R</a>)</li>
+<li>Program (<a href="https://www.python.org">Python</a>/<a href="https://cran.r-project.org">R</a>)</li>
 <li>Data exploration</li>
 <li>Data vizualization</li>
 <li>Modelling</li>
 <li>Communication</li>
 <li>Reproducibility</li>
 </ul>
-<p>Students will learn about these topics by working on case studies
-based on problems that data scientists face in industry and academic
-research. Many of the cases will involve data collected by an
-organization (e.g., organization or scientist), using published data, or
-scraping web pages. All projects will involve some type of collaboration
-or communication. Students are expected to be familiar with the
-application of basic statistical methods used for inference (e.g.,
-general linear models), prediction (e.g., linear and logistic
-regression), and are comfortable with basic data analysis using a
-programming language such as R or Python. Students will be expected to
-adopt a reproducible research workflow using tools such as <a
-href="https://github.com">Github</a>, and <a
-href="https://rmarkdown.rstudio.com">RMarkdown</a>, or <a
-href="https://jupyter.org">Jupyter</a>.</p>
-<p>Class time will be a mixture of informal lectures, class discussions,
-and student presentations.</p>
+<p>Students will learn about these topics by working on case studies based on problems that data scientists face in industry and academic research. Many of the cases will involve data collected by an organization (e.g., organization or scientist), using published data, or scraping web pages. All projects will involve some type of collaboration or communication. Students are expected to be familiar with the application of basic statistical methods used for inference (e.g., general linear models), prediction (e.g., linear and logistic regression), and are comfortable with basic data analysis using a programming language such as R or Python. Students will be expected to adopt a reproducible research workflow using tools such as <a href="https://github.com">Github</a>, and <a href="https://rmarkdown.rstudio.com">RMarkdown</a>, or <a href="https://jupyter.org">Jupyter</a>.</p>
+<p>Class time will be a mixture of informal lectures, class discussions, and student presentations.</p>
 </div>
 <div id="evaluation" class="section level1">
 <h1>Evaluation</h1>
-<p>All work will be graded on a scale from 1 to 4 (sometimes with pluses
-and minuses) where:</p>
+<p>All work will be graded on a scale from 1 to 4 (sometimes with pluses and minuses) where:</p>
 <table>
 <colgroup>
 <col width="19%" />
@@ -403,8 +390,7 @@ and minuses) where:</p>
 </tr>
 <tr class="even">
 <td>2</td>
-<td align="left">Work meets expectations minimally, possibly missing
-some.</td>
+<td align="left">Work meets expectations minimally, possibly missing some.</td>
 </tr>
 <tr class="odd">
 <td>3</td>
@@ -416,19 +402,15 @@ some.</td>
 </tr>
 </tbody>
 </table>
-<p>Grades will almost always be 2 or 3 (1’s and 4’s are rare). Generally
-speaking, a 2 is a B, a 3 is an A, and a 4 is an A+.</p>
+<p>Grades will almost always be 2 or 3 (1’s and 4’s are rare). Generally speaking, a 2 is a B, a 3 is an A, and a 4 is an A+.</p>
 </div>
 <div id="breakdown" class="section level1">
 <h1>Breakdown</h1>
-<p>Lab 1: 10% Lab 2: 10% Lab 3: 10% Project 1: 20% Project 2: 20%
-Project 3: 20% Participation 10%</p>
+<p>Lab 1: 10% Lab 2: 10% Lab 3: 10% Project 1: 20% Project 2: 20% Project 3: 20% Participation 10%</p>
 </div>
 <div id="course-schedule" class="section level1">
 <h1>Course Schedule</h1>
-<p>This is a half-credit that meets in both the fall and winter terms.
-Class meeting will occur approximately bi-weekly. Location is 17th floor
-of The OPG building, class UY 17198.</p>
+<p>This is a half-credit that meets in both the fall and winter terms. Class meeting will occur approximately bi-weekly. Location is 17th floor of The OPG building, class UY 17198.</p>
 <table>
 <colgroup>
 <col width="50%" />
@@ -467,13 +449,11 @@ of The OPG building, class UY 17198.</p>
 </tr>
 <tr class="odd">
 <td>November 22nd</td>
-<td>In Class Lab 2, Data Quality, Ethics, and Missing/Asymmetric Data
-Imputation</td>
+<td>In Class Lab 2, Data Quality, Ethics, and Missing/Asymmetric Data Imputation</td>
 </tr>
 <tr class="even">
 <td>December 6th</td>
-<td>In Class Lab 3, Nonparametrics, and a discussion of Hayashian Data
-Science</td>
+<td>In Class Lab 3, Nonparametrics, and a discussion of Hayashian Data Science</td>
 </tr>
 <tr class="odd">
 <td>Winter Break</td>
@@ -484,122 +464,99 @@ Science</td>
 <div id="required-readings" class="section level2">
 <h2>Required Readings</h2>
 <ul>
-<li><p><a
-href="https://hastie.su.domains/ISLR2/ISLRv2_website.pdf">ISLR</a></p></li>
-<li><p><a href="https://wesmckinney.com/book/">Python for Data Analysis
-2nd/3rd Edition</a></p></li>
+<li><p><a href="https://hastie.su.domains/ISLR2/ISLRv2_website.pdf">ISLR</a></p></li>
+<li><p><a href="https://wesmckinney.com/book/">Python for Data Analysis 2nd/3rd Edition</a></p></li>
 </ul>
 <p>Other readings may be assigned during the course.</p>
 </div>
 <div id="slides-and-materials" class="section level2">
 <h2>Slides and Materials</h2>
 <ul>
-<li>Week 1: <a
-href="https://docs.google.com/presentation/d/15RgjoU7fKz_AFcCyW8qXxrRwj04FeZji-K0mWla_gBQ/edit?usp=sharing">Slides</a>
-and <a
-href="https://colab.research.google.com/drive/1L1Kx8qoHCY3yjuYg2tE4W61xu79xG7lJ?usp=sharing">Code</a></li>
-<li>Week 2: <a
-href="https://colab.research.google.com/drive/1N7p9Gz9YkFo1hq-GHIz96WSgkZFiT9zO">Code</a></li>
+<li>Week 1: <a href="https://docs.google.com/presentation/d/15RgjoU7fKz_AFcCyW8qXxrRwj04FeZji-K0mWla_gBQ/edit?usp=sharing">Slides</a> and <a href="https://colab.research.google.com/drive/1L1Kx8qoHCY3yjuYg2tE4W61xu79xG7lJ?usp=sharing">Code</a></li>
+<li>Week 2: <a href="https://colab.research.google.com/drive/1N7p9Gz9YkFo1hq-GHIz96WSgkZFiT9zO">Code</a></li>
 </ul>
 <hr />
 <div id="lab-1-study-guide" class="section level3">
 <h3>Lab 1 Study Guide</h3>
-<p>The lab will consist of the following topics, please brush up on them
-since this is a timed evaluation, and you will only have an hour.</p>
+<p>The lab will consist of the following topics, please brush up on them since this is a timed evaluation, and you will only have an hour.</p>
 <hr />
 <div id="part-1-data-cleaning" class="section level4">
 <h4>Part 1 Data Cleaning</h4>
-<p>Textbook study guide: Python for Data Analysis Chapters 4, 6, and 7.
-This part of the lab will require you to load a dataset from a link,
-clean the data in a certain way using some constraints, and generate two
-distinct pandas dataframes.</p>
+<p>Textbook study guide: Python for Data Analysis Chapters 4, 6, and 7. This part of the lab will require you to load a dataset from a link, clean the data in a certain way using some constraints, and generate two distinct pandas dataframes.</p>
 <hr />
 </div>
 <div id="part-2-numpy-calculation" class="section level4">
 <h4>Part 2 Numpy Calculation</h4>
-<p>Textbook study guide: Python for Data Analysis Chapters 4. This part
-of the lab will require you to take 2 columns from 2 different datasets
-and calculate a metric using both columns. Essentially this question is
-somewhat of a map-reduce problem. Revise your broadcasting, working with
-<code>np.array</code>, for-loops, and generally numpy skills.</p>
+<p>Textbook study guide: Python for Data Analysis Chapters 4. This part of the lab will require you to take 2 columns from 2 different datasets and calculate a metric using both columns. Essentially this question is somewhat of a map-reduce problem. Revise your broadcasting, working with <code>np.array</code>, for-loops, and generally numpy skills.</p>
 </div>
-<div id="part-3-distributional-characteristic-statistics"
-class="section level4">
+<div id="part-3-distributional-characteristic-statistics" class="section level4">
 <h4>Part 3 Distributional Characteristic Statistics</h4>
-<p>This part can be tackled 1 of 2 ways for full marks. You will be
-marked qualitatively, so the more analysis/justification you write the
-better off you will be. The last end conclusion will separate you from a
-3 to a 4. There is a way to do this question without simulations.</p>
+<p>This part can be tackled 1 of 2 ways for full marks. You will be marked qualitatively, so the more analysis/justification you write the better off you will be. The last end conclusion will separate you from a 3 to a 4. There is a way to do this question without simulations.</p>
 <ul>
-<li>Please review all week-1 lecture notes found here: <a
-href="https://colab.research.google.com/drive/1L1Kx8qoHCY3yjuYg2tE4W61xu79xG7lJ?usp=sharing">Notes</a></li>
-<li>Absolutely essential reading: 13.5.1 A Re-Sampling Approach to the
-p-Value <a
-href="https://hastie.su.domains/ISLR2/ISLRv2_website.pdf">ISLR</a>,
-Algorithm 13.3, we covered only half of this algorithm in class, with
-the remaining part would be to just compare your p-value to the
-distributions of re-sampled p-values, or calculate equation
-(13.12).</li>
+<li>Please review all week-1 lecture notes found here: <a href="https://colab.research.google.com/drive/1L1Kx8qoHCY3yjuYg2tE4W61xu79xG7lJ?usp=sharing">Notes</a></li>
+<li>Absolutely essential reading: 13.5.1 A Re-Sampling Approach to the p-Value <a href="https://hastie.su.domains/ISLR2/ISLRv2_website.pdf">ISLR</a>, Algorithm 13.3, we covered only half of this algorithm in class, with the remaining part would be to just compare your p-value to the distributions of re-sampled p-values, or calculate equation (13.12).</li>
 </ul>
-<p>Useful functions for this question, <code>np.random.choice</code>.
-Try coding this algorithm up yourself! with different types of
-distributions, Gaussian, Generalized Hyperbolic, or Lognormal
-distributions. You can send me emails with code examples.</p>
+<p>Useful functions for this question, <code>np.random.choice</code>. Try coding this algorithm up yourself! with different types of distributions, Gaussian, Generalized Hyperbolic, or Lognormal distributions. You can send me emails with code examples.</p>
 <hr />
 </div>
 </div>
 <div id="lab-2-study-guide" class="section level3">
 <h3>Lab 2 Study Guide</h3>
 <hr />
-<p>The lab will consist of the following topics, please brush up on them
-since this is a timed evaluation, and you will only have an hour.</p>
+<p>The lab will consist of the following topics, please brush up on them since this is a timed evaluation, and you will only have an hour.</p>
 <hr />
 <div id="part-1-regression" class="section level4">
 <h4>Part 1 Regression</h4>
-<p>Textbook study guide: Python for Data Analysis Chapters 4, 6, and 7.
-This part of the lab will require you to load a dataset from a link,
-clean the data, and generate three different dataframes.</p>
-<p>Once data has been cleaned you will fit three different linear
-regression models. You can use any code examples from previous lectures,
-but the best approach is to use the <code>LinearRegression</code> module
-from <code>sklearn.linear_model</code>.</p>
-<p>You should also brush up on your plotting, specifically using
-<code>seaborn</code> and <code>matplotlib.pyplot</code>.</p>
+<p>Textbook study guide: Python for Data Analysis Chapters 4, 6, and 7. This part of the lab will require you to load a dataset from a link, clean the data, and generate three different dataframes.</p>
+<p>Once data has been cleaned you will fit three different linear regression models. You can use any code examples from previous lectures, but the best approach is to use the <code>LinearRegression</code> module from <code>sklearn.linear_model</code>.</p>
+<p>You should also brush up on your plotting, specifically using <code>seaborn</code> and <code>matplotlib.pyplot</code>.</p>
 <p>Be sure to study the assumptions of a linear regression model</p>
 <hr />
 </div>
-<div id="part-2-logistic-and-weighted-linear-regression"
-class="section level4">
+<div id="part-2-logistic-and-weighted-linear-regression" class="section level4">
 <h4>Part 2 Logistic and Weighted Linear Regression</h4>
 <hr />
-<p>This part of the lab will require you to use the
-<code>LogisticRegression</code> module also from
-<code>sklearn.linear_model</code>. You will fit a logistic regression
-model and then the output probabilities as weights for to fit a weighted
-regression model. This will be similar to the example we did in
-class.</p>
+<p>This part of the lab will require you to use the <code>LogisticRegression</code> module also from <code>sklearn.linear_model</code>. You will fit a logistic regression model and then the output probabilities as weights for to fit a weighted regression model. This will be similar to the example we did in class.</p>
 <p>Again you will be required to do some plotting.</p>
 <hr />
 </div>
 <div id="part-3-finite-mixture-modelling" class="section level4">
 <h4>Part 3 Finite Mixture Modelling</h4>
 <hr />
-<p>You will fit an appropriate finite mixture model similar to the
-example covered in class. You should work with the
-<code>flm_model.py</code> file I have programmed for you and code up the
-EM algorithm as a method for that class.</p>
-<p>You will be asked to plot the dataset colored by the assigned labels
-of the fitted mixture model.</p>
-<p>To achieve a level 4 you must have extended the
-<code>flm_model.py</code> in an appropriate way to capture the
-variability of the covariate distribution, as well as the conditional
-distribution. Perform some research online for several possible
-extensions.</p>
+<p>You will fit an appropriate finite mixture model similar to the example covered in class. You should work with the <code>flm_model.py</code> file I have programmed for you and code up the EM algorithm as a method for that class.</p>
+<p>You will be asked to plot the dataset colored by the assigned labels of the fitted mixture model.</p>
+<p>To achieve a level 4 you must have extended the <code>flm_model.py</code> in an appropriate way to capture the variability of the covariate distribution, as well as the conditional distribution. Perform some research online for several possible extensions.</p>
 <hr />
 <p>Final note:</p>
-<p>Please work with the french motor policy dataset covered in class as
-the evaluation’s dataset is quite similar.</p>
+<p>Please work with the french motor policy dataset covered in class as the evaluation’s dataset is quite similar.</p>
 <hr />
+<hr />
+</div>
+</div>
+<div id="lab-3-study-guide" class="section level3">
+<h3>Lab 3 Study Guide</h3>
+<hr />
+<hr />
+<p>The lab will consist of the following topics, please brush up on them since this is a timed evaluation, and you will only have an hour.</p>
+<hr />
+<div id="part-1-transformations" class="section level4">
+<h4>Part 1 Transformations</h4>
+<p>This part of the evaluation requires you to employ power transforms to transform data from asymmetric to normal. You will also be required to compare and contrast the before/after histograms for the transformations. You will need to familiarize yourself with the PowerTransformer object from sklearn.</p>
+<hr />
+</div>
+<div id="part-2-imputation" class="section level4">
+<h4>Part 2 Imputation</h4>
+<p>Perform an imputation procedure using the three steps defined in class. During the second step, find the optimal number of G via some metric, show your results. Produce a pairsplot with grey points from the fully complete dataset, and imputed blue points overlayed on the grey. Just like in class!</p>
+<hr />
+</div>
+<div id="part-3-imputation-and-transformation" class="section level4">
+<h4>Part 3 Imputation and Transformation</h4>
+<p>Take the original data. Perform an imputation procedure using a mixture model <code>AND</code> a transformation procedure together.</p>
+<p>To achieve a level 3 you must incorporate the transformation coherently, and, fit a mixture model after for imputation purposes. Here, the transformation, and fitting of the mixture model is done <code>SEPARATELY</code>. Ensure that during the imputation step you are working in the Gaussian space, and then transform it appropriately to desired domain of the original data. You are free to use any transformation scheme you like, Power transforms, Manly, etc.</p>
+<p>To achieve a level 4 you must adequatly incorporate a transformation <code>DIRECTLY</code> within the density of the mixture model component definition, and, fit it appropriately within an estimation step.</p>
+<p>Find the optimal number of G via some metric, show your results.</p>
+<p>Plot a pairsplot with the following schematic: - grey points are fully complete datapoints. - red points are imputed datapoints and overlayed with the original grey.</p>
+<p>Comment on the impuation and any relationships within the data, compare and contrast the results of the red points vs the blue points from Part 2.</p>
 </div>
 </div>
 </div>

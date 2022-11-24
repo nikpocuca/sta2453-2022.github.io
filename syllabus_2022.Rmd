@@ -184,5 +184,46 @@ Please work with the french motor policy dataset covered in class as the evaluat
 
 
 
+---
+
+### Lab 3 Study Guide 
+
+---
+
+---
+
+The lab will consist of the following topics, please brush up on them since this is a timed evaluation, and you will only have an hour. 
+
+---
+
+#### Part 1 Transformations
+
+This part of the evaluation requires you to employ power transforms to transform data from asymmetric to normal. 
+You will also be required to compare and contrast the before/after histograms for the transformations.
+You will need to familiarize yourself with the PowerTransformer object from sklearn. 
+
+--- 
+
+#### Part 2 Imputation 
+
+Perform an imputation procedure using the three steps defined in class. 
+During the second step, find the optimal number of G via some metric, show your results. 
+Produce a pairsplot with grey points from the fully complete dataset, and imputed blue points overlayed on the grey. Just like in class!
+
+--- 
+#### Part 3 Imputation and Transformation 
 
 
+Take the original data. Perform an imputation procedure using a mixture model `AND` a transformation procedure together. 
+
+To achieve a level 3 you must incorporate the transformation coherently, and, fit a mixture model after for imputation purposes. Here, the transformation, and fitting of the mixture model is done `SEPARATELY`. Ensure that during the imputation step you are working in the Gaussian space, and then transform it appropriately to desired domain of the original data. You are free to use any transformation scheme you like, Power transforms, Manly, etc. 
+
+To achieve a level 4 you must adequatly incorporate a transformation `DIRECTLY` within the density of the mixture model component definition, and, fit it appropriately within an estimation step. 
+
+Find the optimal number of G via some metric, show your results. 
+
+Plot a pairsplot with the following schematic: 
+- grey points are fully complete datapoints. 
+- red points are imputed datapoints and overlayed with the original grey. 
+
+Comment on the impuation and any relationships within the data, compare and contrast the results of the red points vs the blue points from Part 2. 
